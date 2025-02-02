@@ -1,0 +1,93 @@
+/* Estilos generales para la página */
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los formularios */
+.form-group label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los botones */
+button {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el CV generado */
+.cv-content {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Secciones del CV */
+.cv-section {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Fondo blanco para las secciones */
+    padding: 15px; /* Espacio interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+/* Títulos de secciones */
+.cv-section h5 {
+    font-size: 1.5em; /* Tamaño del título */
+    margin-bottom: 10px;
+    color: #2980b9; /* Color atractivo */
+    border-bottom: 2px solid #2980b9; /* Línea debajo del título */
+    padding-bottom: 5px; /* Espacio debajo del título */
+}
+
+/* Estilos para contenido del CV */
+.cv-content h4 {
+    font-size: 2em; /* Aumentar tamaño del nombre */
+    margin-bottom: 10px;
+    color: #2980b9; /* Color atractivo para el nombre */
+}
+
+.cv-content p, .cv-content ul {
+    font-size: 1.1em; /* Tamaño de texto */
+    margin: 5px 0; /* Espaciado */
+}
+
+.cv-content ul {
+    list-style-type: disc;
+    padding-left: 20px; /* Espacio a la izquierda de las listas */
+}
+
+.cv-content li {
+    margin-bottom: 8px;
+    color: #34495e; /* Color de los elementos de la lista */
+}
+
+/* Estilo para el botón Generar CV */
+button[type="submit"] {
+    display: block; /* Hacer el botón más visible */
+    width: 100%; /* Botón ocupa todo el ancho */
+    padding: 10px; /* Mejorar espacio interno */
+    background-color: #27ae60; /* Color atractivo para el botón */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    font-size: 1.2em; /* Aumentar tamaño del texto */
+    cursor: pointer; /* Cambiar cursor */
+    transition: background-color 0.3s; /* Transición para hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #219653; /* Color al pasar el mouse */
+}
